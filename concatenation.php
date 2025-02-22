@@ -30,6 +30,7 @@
     <p>Character Count: <?php echo $charCount; ?> characters</p>
 
     <a href="index.php">Debug Errors Exercise</a>
-
+    <br>
+    <a href="functions.php">Functions Exercise</a>
     </body>
 </html>

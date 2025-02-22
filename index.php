@@ -35,6 +35,7 @@
     </ul>
 
 	<a href="concatenation.php">Concatenation Exercise</a>
-
+	<br>
+    <a href="functions.php">Functions Exercise</a>
 </body>
 </html>
