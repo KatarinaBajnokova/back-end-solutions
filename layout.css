@@ -1,0 +1,33 @@
+.layout-exercise {
+    background:rgb(253, 198, 237); 
+    border-left: 5px solid rgb(135, 10, 114); 
+    padding: 35px;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 15px; 
+}
+
+
+.layout-solution {
+    background: rgb(198, 239, 253); 
+    border-left: 5px solid rgb(10, 114, 135); 
+    padding: 35px;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.layout-exercise ul, .layout-solution ul {
+    padding-left: 20px;
+}
+
+.layout-exercise li, .layout-solution li {
+    font-size: 15px;
+}
+

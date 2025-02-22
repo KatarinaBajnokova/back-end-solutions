@@ -1,4 +1,5 @@
 <?php
+	include 'header.php';
     $fruit = "coconut"; 
     $fruitLength = strlen($fruit); 
     $firstO = strpos($fruit, "o"); 
@@ -11,23 +12,19 @@
     $number = "3";
     $longestWord = "pneumonoultramicroscopicsilicovolcanoconiosis"; 
     $modifiedWord = str_replace($letter, $number, $longestWord); 
-
-
 ?>
-
-
 
 <!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="/css/global.css">
-        <link rel="stylesheet" type="text/css" href="/css/directory.css">
-        <link rel="stylesheet" type="text/css" href="/css/facade.css">
+        <link rel="stylesheet" href="layout.css">
+
     </head>
     <body>
-        
+
+        <div class="layout-exercise">
         <h1>String functions</h1>
 
         <h2>Part 1</h2>
@@ -58,32 +55,31 @@
                 <p class="remark">You can only use the variable names. The values <code>e</code>, <code>3</code> and <code>pneumonoultramicroscopicsilicovolcanoconiosis</code> can only appear once in the PHP document.</p>
             </li>
         </ul>
+        </div>
 
-        <h1>String Functions</h1>
+        <div class="layout-solution">
+        <h1>Solution</h1>
 
-    <h2>Part 1</h2>
-    <ul>
+        <h2>Part 1</h2>
+        <ul>
         <li> <?php echo $fruit; ?> </li>
         <li>Character count: <?php echo $fruitLength; ?> </li>
         <li>First occurrence of 'o': <?php echo $firstO; ?> </li>
-    </ul>
+        </ul>
 
-    <h2>Part 2</h2>
-    <ul>
+        <h2>Part 2</h2>
+        <ul>
         <li> <?php echo $fruit2; ?> </li>
         <li>Last occurrence of 'a': <?php echo $lastA; ?> </li>
         <li>Uppercase version: <?php echo $fruit2Upper; ?> </li>
-    </ul>
+        </ul>
 
-    <h2>Part 3</h2>
-    <ul>
+        <h2>Part 3</h2>
+        <ul>
         <li>Original word: <?php echo $longestWord; ?> </li>
         <li>Modified word: <?php echo $modifiedWord; ?></li>
-    </ul>
-
-
-        <a href="concatenation.php">Concatenation Exercise</a>
-        <br>
-        <a href="index.php">Debug-Errors Exercise</a>
+        </ul>
+        </div>
+        
     </body>
 </html>

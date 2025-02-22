@@ -1,10 +1,10 @@
 <?php
-    // Part 1
+    include 'header.php';
     $textToCheck = "ExampleText";
     $check1 = strlen($textToCheck) > 5 && ctype_upper($textToCheck[0]);
     $check2 = strlen($textToCheck) > 5 || strpos($textToCheck, 'e') !== false;
     $check3 = strlen($textToCheck) > 5;
-    $check3b = !(strlen($textToCheck) <= 5); // Alternative method
+    $check3b = !(strlen($textToCheck) <= 5); 
 
     // Part 2
     $yearOfBirth = 2000;
@@ -17,9 +17,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="/css/global.css">
-        <link rel="stylesheet" type="text/css" href="/css/directory.css">
-        <link rel="stylesheet" type="text/css" href="/css/facade.css">
+        <link rel="stylesheet" href="layout.css">
 
         <style>
         .applicable {
@@ -28,9 +26,11 @@
             padding: 10px;
             font-weight: bold;
         }
+
     </style>
     </head>
     <body >
+        <div class="layout-exercise">
 		<h1>Logic operators</h1>
 
         <h2>Part 1</h2>
@@ -54,9 +54,10 @@
             <li>Evaluate if your year of birth is odd or above 1994. If this is not the case and your month of birth is below or equal to the first six months, then it should still evaluate to true.</li>
             <li>If the above evaluation is true, then the text "You apply" is being shown in a <code>&lt;p&gt;</code> element and a class is being added called "applicable". This class makes the background-color of the paragraph green and the text white.</li>
         </ul>
+    </div>
 
-
-        <h1>Logic Operators</h1>
+	<div class="layout-solution">
+    <h1>Solution</h1>
 
     <h2>Part 1</h2>
     <ul>
@@ -77,9 +78,7 @@
     <?php if ($applyCondition): ?>
         <p class="applicable">You apply</p>
     <?php endif; ?>
+    </div>
 
-    <a href="concatenation.php">Concatenation Exercise</a>
-	<br>
-    <a href="functions.php">Functions Exercise</a>
     </body>
 </html>
