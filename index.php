@@ -37,5 +37,7 @@
 	<a href="concatenation.php">Concatenation Exercise</a>
 	<br>
     <a href="functions.php">Functions Exercise</a>
+	<br>
+	<a href="operators.php">Operators Exercise</a>
 </body>
 </html>
