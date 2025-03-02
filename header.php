@@ -43,7 +43,7 @@
         }
 
         nav a:hover {
-            background:rgb(161, 8, 161); /
+            background:rgb(202, 14, 202); 
         }
 
         body {
@@ -64,5 +64,7 @@
             <li><a href="statementsIFELSE.php">If-Else</a></li>
             <li><a href="statementsIFELSEIF.php">If-ElseIf</a></li>
             <li><a href="switch.php">Switch</a></li>
+            <li><a href="arrayscreation.php">Arrays Creation</a></li>
+            <li><a href="arraysfunction.php">Arrays Function</a></li>
         </ul>
     </nav>
