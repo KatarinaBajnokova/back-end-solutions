@@ -1,0 +1,38 @@
+/* General table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for table cells */
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Background color for even numbers */
+.even {
+    background-color: lightgreen;
+}
+
+/* Styling for the page layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Heading styling */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Styling for paragraph text */
+p {
+    font-size: 18px;
+    font-weight: bold;
+}

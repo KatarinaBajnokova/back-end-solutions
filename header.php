@@ -26,7 +26,7 @@
             margin: 0;
             padding: 0;
             display: flex;
-            gap: 20px; 
+            gap: 15px; 
         }
 
         nav ul li {
@@ -40,6 +40,7 @@
             padding: 10px 15px;
             transition: background 0.3s ease-in-out;
             border-radius: 5px;
+            font-size: 12px;
         }
 
         nav a:hover {
@@ -66,5 +67,10 @@
             <li><a href="switch.php">Switch</a></li>
             <li><a href="arrayscreation.php">Arrays Creation</a></li>
             <li><a href="arraysfunction.php">Arrays Function</a></li>
+            <li><a href="while.php">While</a></li>
+            <li><a href="for.php">For</a></li>
+            <li><a href="foreach.php">Foreach</a></li>
+            <li><a href="functions-basic.php">Functions basic</a></li>
+            <li><a href="functions-advanced.php">Functions advanced</a></li>
         </ul>
     </nav>

@@ -28,7 +28,9 @@
 	</div>
 
 	<div class="layout-solution">
+		
 	<h2>Solution</h2>
+
 	<ul>
         <li><?php echo $text; ?></li>
         <li><?php echo $_2text; ?></li>
