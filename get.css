@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.article-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.article-preview {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.article-preview img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}

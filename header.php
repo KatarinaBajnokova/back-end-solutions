@@ -72,5 +72,8 @@
             <li><a href="foreach.php">Foreach</a></li>
             <li><a href="functions-basic.php">Functions basic</a></li>
             <li><a href="functions-advanced.php">Functions advanced</a></li>
+            <li><a href="get.php">Get</a></li>
+            <li><a href="post.php">Post</a></li>
+            <li><a href="revision1.php">Reveision 1</a></li>
         </ul>
     </nav>
