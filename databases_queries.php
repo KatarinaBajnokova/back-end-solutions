@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-$dbPath = 'C:\\Users\\katar_yka\\OneDrive - Thomas More\\Semester IV\\Back-end API Development\\solutions\\spotify.sqlite';
+$dbPath = 'spotify.sqlite';
 
 if (!file_exists($dbPath)) {
     die("Database file not found at: " . $dbPath);
