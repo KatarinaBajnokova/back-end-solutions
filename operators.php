@@ -6,7 +6,6 @@
     $check3 = strlen($textToCheck) > 5;
     $check3b = !(strlen($textToCheck) <= 5); 
 
-    // Part 2
     $yearOfBirth = 2000;
     $monthOfBirth = 12;
     $applyCondition = ($yearOfBirth % 2 !== 0 || $yearOfBirth > 1994) || ($monthOfBirth <= 6);

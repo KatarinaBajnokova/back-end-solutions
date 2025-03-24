@@ -37,10 +37,10 @@
             text-decoration: none;
             color: white;
             font-weight: bold;
-            padding: 10px 15px;
+            padding: 8px 10px;
             transition: background 0.3s ease-in-out;
             border-radius: 5px;
-            font-size: 12px;
+            font-size: 10px;
         }
 
         nav a:hover {
@@ -75,5 +75,10 @@
             <li><a href="get.php">Get</a></li>
             <li><a href="post.php">Post</a></li>
             <li><a href="revision1.php">Reveision 1</a></li>
+            <li><a href="databases_connection.php">Connection</a></li>
+            <li><a href="databases_queries.php">Queries</a></li>
+            <li><a href="databases_add.php">add</a></li>
+            <li><a href="databases_delete.php">delete</a></li>
+            <li><a href="databases_update.php">update</a></li>
         </ul>
     </nav>
